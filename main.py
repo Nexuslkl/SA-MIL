@@ -11,7 +11,7 @@ def get_args_parser():
     parser = argparse.ArgumentParser('Multiple Instance Learning for Histopathological Image Segmentation', add_help=False)
     parser.add_argument('--batch_size', default=64, type=int)
     parser.add_argument('--epochs', default=50, type=int)
-    parser.add_argument('--model', default='sa_mil', type=str)
+    parser.add_argument('--model', default='SA_MIL', type=str)
     parser.add_argument('--input_size', default=256, type=int)
     parser.add_argument('--weight_decay', default=0.0005, type=float)
     parser.add_argument('--lr', default=1e-5, type=float)
